@@ -1,0 +1,14 @@
+z80dasm was written and is maintained by Tomaz Solc (tomaz.solc@tablix.org)
+
+It is based on dz80 3.0 written by Jan Panteltje
+(available at http://panteltje.com/panteltje/z80/index.html)
+
+2022/12/05	geowar1@mac.com	Added block types:
+
+	defc_data,	//consecutive ASCII characters (last character has bit-7 set)
+	defz_data,	//consecutive ASCII characters (null termination)
+	defs_data,	//skipdata
+
+	defb_data	alias for bytedata
+	defw_data	alias for worddata
+
